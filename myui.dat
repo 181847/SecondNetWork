@@ -1,0 +1,99 @@
+# Created by Octave 4.2.1, Sun Sep 17 20:53:07 2017 GMT <unknown@unknown>
+# name: myui
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 13
+# name: frameText
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 0 150 80
+
+
+# name: crcText
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 90 150 40
+
+
+# name: lengthText
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 140 150 40
+
+
+# name: button
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 190 150 40
+
+
+# name: dataText
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 240 150 80
+
+
+# name: sourceMacText
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 330 150 40
+
+
+# name: destMacText
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 380 150 40
+
+
+# name: destMacEdit
+# type: matrix
+# rows: 1
+# columns: 4
+ 150 380 300 40
+
+
+# name: sourceMacEdit
+# type: matrix
+# rows: 1
+# columns: 4
+ 150 330 300 40
+
+
+# name: dataEdit
+# type: matrix
+# rows: 1
+# columns: 4
+ 150 240 300 80
+
+
+# name: LengthDispText
+# type: matrix
+# rows: 1
+# columns: 4
+ 150 140 300 40
+
+
+# name: crcDispText
+# type: matrix
+# rows: 1
+# columns: 4
+ 150 90 300 40
+
+
+# name: frameDispText
+# type: matrix
+# rows: 1
+# columns: 4
+ 150 0 300 80
+
+
+
+
