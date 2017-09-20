@@ -1,7 +1,7 @@
 function fcs = CRC_CPP(data, generator)
-%data: 行向量
-%generator: 包含最大项的1。
-%fcs: 计算的校验码，行向量，size(fcs) == (size(generator, 2)-1)
+%data: row vector of 0 and 1.
+%generator: row vector, generator polynomial, generator(1) should always be 1.
+%fcs: row vector, fcs, size(fcs) == (size(generator, 2)-1)
     
     
     length = size(data, 2);
@@ -25,7 +25,7 @@ function fcs = CRC_CPP(data, generator)
             buffer = [buffer(2:end), data(checkPointer + 8)];
         end
         
-        disp(buffer);
+        %disp(buffer);
     end
     
     fcs = buffer;

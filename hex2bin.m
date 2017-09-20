@@ -1,12 +1,14 @@
 function bin = hex2bin(hexString)
-%hexString 是以一个16进制的字符串形式
-%bin 是一个数字形式的数组，对应hexString。
+%hexString: a string which should present a hex number
+%bin: row vector, convert the hexString to he 0 and 1 vector, 
+%   notice that size(bin, 2) == 4 * size(hexString).
 
     bin = [];
     for i = 1:size(hexString, 2),
         dec = hex2dec(hexString(i));
         binS = dec2bin(dec);
         
-        bin = [bin binS2binV(binS)];
+        %ensure one hex character convert to 4 bin 
+        bin = [bin [zeros(1, 4 - size(binS, 2)), binS2binV(binS)]];
     end
 end
